@@ -23,5 +23,13 @@ namespace Web001.Services
         /// <returns>a-b的差</returns>
         double Subtraction(double a, double b);
 
+        /// <summary>
+        /// 相除
+        /// </summary>
+        /// <param name="a">a</param>
+        /// <param name="b">b</param>
+        /// <returns>a/b的商</returns>
+        double Division(double a, double b);
+
     }
 }

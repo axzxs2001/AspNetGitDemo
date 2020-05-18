@@ -28,5 +28,16 @@ namespace Web001.Services
         {
             return a - b;
         }
+
+        /// <summary>
+        /// 相除
+        /// </summary>
+        /// <param name="a">a</param>
+        /// <param name="b">b</param>
+        /// <returns>a/b的商</returns>
+        public double Division(double a, double b)
+        {
+            return a / b;
+        }
     }
 }
