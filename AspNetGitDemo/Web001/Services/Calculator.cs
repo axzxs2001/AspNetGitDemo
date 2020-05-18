@@ -50,5 +50,16 @@ namespace Web001.Services
         {
             return number1 * number2;
         }
+
+        /// <summary>
+        /// 乘方
+        /// </summary>
+        /// <param name="number1">number1</param>
+        /// <param name="number2">number2</param>
+        /// <returns>number1乘方number2</returns>
+        public double Pow(double number1, double number2)
+        {
+            return Math.Pow(number1, number2);
+        }
     }
 }
