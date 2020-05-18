@@ -31,5 +31,13 @@ namespace Web001.Services
         /// <returns>a/b的商</returns>
         double Division(double a, double b);
 
+        /// <summary>
+        /// 相乘
+        /// </summary>
+        /// <param name="number1">number1</param>
+        /// <param name="number2">number2</param>
+        /// <returns>number1*number2的积</returns>
+        double Multiply(double number1, double number2);
+
     }
 }
