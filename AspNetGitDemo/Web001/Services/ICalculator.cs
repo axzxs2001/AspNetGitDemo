@@ -14,5 +14,13 @@ namespace Web001.Services
         /// <param name="b">b</param>
         /// <returns>a+b的和</returns>
         int Plus(int a, int b);
+
+        /// <summary>
+        /// 相减
+        /// </summary>
+        /// <param name="a">a</param>
+        /// <param name="b">b</param>
+        /// <returns>a-b的差</returns>
+        double Subtraction(double a, double b);
     }
 }

@@ -17,5 +17,16 @@ namespace Web001.Services
         {
             return a + b;
         }
+
+        /// <summary>
+        /// 相减
+        /// </summary>
+        /// <param name="a">a</param>
+        /// <param name="b">b</param>
+        /// <returns>a-b的差</returns>
+        public double Subtraction(double a, double b)
+        {
+            return a - b;
+        }
     }
 }
