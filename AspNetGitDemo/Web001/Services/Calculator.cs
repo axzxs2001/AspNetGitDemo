@@ -13,7 +13,7 @@ namespace Web001.Services
         /// <param name="a">a</param>
         /// <param name="b">b</param>
         /// <returns>a+b的和</returns>
-        public int Plus(int a, int b)
+        public double Plus(double a, double b)
         {
             return a + b;
         }
