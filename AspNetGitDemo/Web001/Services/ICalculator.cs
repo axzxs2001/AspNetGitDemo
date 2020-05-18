@@ -39,5 +39,13 @@ namespace Web001.Services
         /// <returns>number1*number2的积</returns>
         double Multiply(double number1, double number2);
 
+        /// <summary>
+        /// 乘方
+        /// </summary>
+        /// <param name="number1">number1</param>
+        /// <param name="number2">number2</param>
+        /// <returns>number1乘方number2</returns>
+        double Pow(double number1, double number2);
+
     }
 }
